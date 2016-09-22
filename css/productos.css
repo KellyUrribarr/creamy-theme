@@ -1,0 +1,124 @@
+/* menu */
+.navbar-default{
+	background: rgba(147,206,222,1);
+background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+
+.navbar .navbar-nav>li>a{
+	color:#F3F1F1;
+	font-weight: bold;
+	font-family: "Open Sans";
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:#DCDADA;
+}
+	
+.navbar{
+	margin-bottom: 0px;
+	border:0px;
+	border-radius: 0px;
+}
+
+.logo img{
+	width: 20%;
+	position: relative;
+	top:40px;
+	z-index: 8;
+}
+
+/*banner*/
+.box-banner{
+	width: 100%;
+	height: 400px;
+	display: block;
+	position: relative;
+	background-color: #000;
+	opacity: 0.9;
+}
+
+.box-banner::after{
+	content: "";
+	background-image: url(../img/creamy.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.box-banner h1{
+	font-family: "Merriweather";
+	font-size: 80px;
+	color:#FEFF99;
+	position: relative;
+	top:137px;
+}
+
+.box-banner h3{
+	font-family: "Open Sans";
+	color:#FEFF99;
+	position: relative;
+	top:110px;
+}
+
+/*cuerpo*/
+.box-cuerpo img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.box-cuerpo p{
+	font-family: "Merriweather";
+	color: #000;
+	padding-top:38px;
+}
+
+.box-cuerpo .galeri{
+	width: 300px;
+	height: 150px;
+	margin-top:5px;
+	margin-left: 20px;
+	margin-bottom:15px;
+}
+
+/*cuerpo-dos*/
+.box-cuerpo-dos{
+	background-color: #F3F2F2;
+	margin-top: 40px;
+}
+
+.box-cuerpo-dos .fa-cc-amex, .fa-cc-discover, .fa-paypal{
+	color:#909090;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 40px; 
+}
+
+.box-cuerpo-dos h5{
+	font-family: "Merriweather";
+	color:#909090;
+	padding-top:20px;
+}
+
+
+.box-cuerpo-dos p{
+	font-family: "Merriweather";
+	font-size: 12px;
+	color:#909090;
+	padding-top:60px;
+}
+font-family: 'Open Sans', sans-serif;
+font-family: 'Merriweather', serif;
