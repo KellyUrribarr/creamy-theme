@@ -90,7 +90,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 	height: 150px;
 	margin-top:5px;
 	margin-left: 20px;
-	margin-bottom:15px;
+	margin-bottom:5px;
+	border-radius: 10px;
 }
 
 /*cuerpo-dos*/
