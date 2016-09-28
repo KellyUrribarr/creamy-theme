@@ -8,4 +8,4 @@
 * Abre las gh-pages
 * Revisa que los repositorios remotos existan
 
-Para más información: [ir a laboratoria](https://www.laboratoria.cl)
+Para más información: [ir a laboratoria](https://www.laboratoria.la)
