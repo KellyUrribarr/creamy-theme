@@ -60,7 +60,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 
 .box-banner h1{
 	font-family: "Merriweather";
-	font-size: 80px;
+	font-size: 66px;
 	color:#FEFF99;
 	position: relative;
 	top:137px;
@@ -74,6 +74,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 }
 
 /*cuerpo-dos*/
+.box-contacto .form-control{
+	margin-bottom: 1%;
+}
+
 .box-cuerpo-dos{
 	background-color: #F3F2F2;
 	margin-top: 40px;
@@ -98,6 +102,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 	font-size: 12px;
 	color:#909090;
 	padding-top:60px;
+}
+
+.box-contacto h3{
+	margin-top: 100px;
+	margin-bottom: 20px;
 }
 font-family: 'Open Sans', sans-serif;
 font-family: 'Merriweather', serif;
